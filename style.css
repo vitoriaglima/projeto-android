@@ -23,6 +23,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -52,10 +53,8 @@ header p{
     color: white;
     font-family: var(--fonte1);
     font-size: 1.2em;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    max-width: 100%;
+    padding: 0 16px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.489);
 }
